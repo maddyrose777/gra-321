@@ -5,3 +5,20 @@
 h1 {
 
 }
+
+.container {
+  background-image: url(img/oneway.jpg);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+
+}
