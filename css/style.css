@@ -1,5 +1,5 @@
 * {
-background-color: #D2691E;
+background-color: Olive;
 }
 
 h1 {
@@ -57,4 +57,37 @@ li{
 li:hover {
   font-size: 30px;
   background: #f6f6f6;
+}
+
+/*---Work Sans Font Import ---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+/*---Default Styling ---*/
+body {
+  background-color: Olive;
+}
+p {
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-size:52px;
+  font-weight:500;
+  text-align:center;
+  width: 100%;
+  margin: 0 auto;
+  top: 65px;
+  position:relative;
+}
+
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: Orange;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: OldLace;
+}
 }
