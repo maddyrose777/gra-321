@@ -41,7 +41,7 @@ li:last-child {
   border: none;
 }
 
-li a {
+li{
   text-decoration: none;
   color: #000;
   display: block;
@@ -54,7 +54,7 @@ li a {
   transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
-li a:hover {
+li:hover {
   font-size: 30px;
   background: #f6f6f6;
 }
