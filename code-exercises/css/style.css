@@ -1,17 +1,16 @@
 * {
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap'
 
 }
 
-h1 {
 
-}
-
-.container {
-  background-image: url(https://maddyrose777.github.io/gra-321/img/oneway.jpg);
+h2 {
+  background-image: url("https://maddyrose777.github.io/gra-321/img/oneway.jpg");
   background-size: cover;
   height:700px;
   margin: 0 auto;
   width:50%;
+  
 
 }
 
