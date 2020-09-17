@@ -5,12 +5,8 @@
 
 
 h2 {
-  background-image: url("https://maddyrose777.github.io/gra-321/img/oneway.jpg");
-  background-size: cover;
-  height:700px;
-  margin: 0 auto;
-  width:50%;
-  
+
+
 
 }
 
@@ -26,4 +22,13 @@ h1 {
   background-color: Olive;
   color:OldLace;
   text-decoration:underline;
+}
+
+.background-image {
+  background-image: url("img/oneway.jpg");
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:50%;
+
 }
