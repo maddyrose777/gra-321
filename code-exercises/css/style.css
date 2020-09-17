@@ -24,11 +24,8 @@ h1 {
   text-decoration:underline;
 }
 
-.background-image {
-  background-image: url("img/oneway.jpg");
-  background-size: cover;
-  height:700px;
-  margin: 0 auto;
-  width:50%;
+#background-image {
+  background-image: url("https://maddyrose777.github.io/gra-321/code-exercises/img/oneway.JPG");
+
 
 }
