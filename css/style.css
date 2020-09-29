@@ -1,14 +1,16 @@
 * {
 background-color: Olive;
+	font-family: "WorkSans Medium"
 }
 
 h1 {
-font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+font: 400 40px/1.5 'WorkSans Medium' sans-serif;
 }
 
 body {
-  body {
     background-color: Olive;
+	margin-bottom: auto; 
+	margin-left: 75px;
   }
 
 
@@ -24,7 +26,7 @@ div {
 
 
 h2 {
-  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  font: 400 40px/1.5 'WorkSans Medium', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -36,7 +38,8 @@ ul {
 }
 
 li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  font: 200 20px/1.5; 
+  font-family: 'WorkSans Medium', sans-serif;
   border-bottom: 1px solid #ccc;
 }
 
@@ -63,16 +66,6 @@ li:hover {
 }
 
 
-
-/*---Work Sans Font Import ---*/
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
-
-
-/*---Default Styling ---*/
-body {
-  background-color: Olive;
-}
 p {
   font-family: 'Work Sans', Arial, sans-serif;
   font-size:52px;
@@ -84,15 +77,3 @@ p {
   position:relative;
 }
 
-/*---Media Queries---*/
-@media screen and (max-width: 1000px) {
-  body {
-    background-color: Orange;
-}
-}
-
-@media screen and (max-width: 500px) {
-  body {
-    background-color: OldLace;
-}
-}

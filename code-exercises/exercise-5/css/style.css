@@ -1,0 +1,21 @@
+* {
+	
+}
+
+.mag-grid {
+	display: grid;
+	grid-template-columns: 221px 713px; 
+	grid-row-gap: 12px; 
+	grid-column-gap: 50px; 
+	
+}
+
+.title {
+font-family: Helvetica, sans-serif, arial;	
+font-size: 26;
+line-height: 31;
+tracking: -35;
+text-align: left; 
+}
+
+

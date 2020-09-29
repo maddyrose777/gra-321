@@ -1,0 +1,26 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap'
+
+}
+
+
+
+h2 {
+
+
+
+}
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+
+}
+
+.padding-hover:hover {
+  background-color: Olive;
+  color:OldLace;
+  text-decoration:underline;
+}
