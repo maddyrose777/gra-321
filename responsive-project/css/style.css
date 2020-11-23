@@ -1,7 +1,214 @@
 * {
+font-family: "Asap";
+	background-color: #fffdf5; 
+}
 
+.all {
+	background-color: #fffdf5; 
 }
 
 h1 {
+	color: #b07a1f; 
+}
 
+h2 {
+	color: #5D726A;
+}
+
+p {
+	color: #1A2D30;
+}
+
+#all {
+	margin-left: 62 px;
+}
+
+.button {
+  background-color: #B07A1F;
+  color: #FFFDF5;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+}
+
+.flexbox-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: flex-start; 
+	align-items: flex-start; 
+	justify-content: flex-start;
+	
+}
+
+.flexbox-item {
+	width: 320 px;
+	
+}
+
+.flex-column-1 {
+	text-align: left;
+	flex-shrink: 0;
+}
+
+.flex-column-2 {
+	text-align: left;
+	flex-shrink: 0;
+}
+
+.flex-column-3 {
+	text-align: left;
+	flex-shrink: 0;
+}
+
+.flex-column-4 {
+	text-align: left;
+	flex-shrink: 0;
+}
+
+#about-us {
+	display: inline-block;
+	min-width: 320px;
+	max-width: 678px; 
+	
+}
+
+#did-you-know {
+	display: inline-block;
+	min-width: 320px;
+	max-width: 678px; 
+}
+
+#whats-in-season {
+	display: inline-block;
+	min-width: 320px;
+	max-width: 678px;
+}
+
+#contact {
+	color: #1A2D30;
+}
+
+#follow-us {
+	color: #1A2D30;
+}
+
+header {
+background-color: rgba;
+width: 100%; 
+
+} 
+
+
+.header-nav { 
+  background-color: #F7F7DF;
+  width:100%;
+} 
+
+.nav-bar { 
+  color: #485854; 	
+  display:flex;
+  align-items: left; 
+  width: 100%; 
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;  
+}
+
+#toggle { 
+display:none;
+}
+
+label { 
+line-height:20px;
+cursor: pointer;
+background-color: #F7F7DF;
+}
+
+ul.menu-items { 
+padding: 20px 0 0 0; 
+margin: 0;
+list-style-type: none;
+text-align: left; 
+  background-color: #fffdf5;
+  
+}
+
+ul.menu-items a { 
+  text-decoration:none; 
+  line-height:40px;
+  text-align: center;
+  color: #B07A1F;
+  display:block;
+}
+
+ul.menu-items a:first-of-type {
+  padding-top:10px;
+}
+
+ul.menu-items a:last-of-type {
+  padding-bottom:10px;
+}
+
+#toggle:checked ~ ul.menu-items { 
+  display:none;
+}
+
+#menu, #visit-us, #shop, #about-us {
+  height:40px;
+}
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 500px) { 
+  .header-nav { 
+  width:90%;
+  margin: 0 auto; 
+    display:flex; 
+    align-items: flex-end; 
+    justify-content: space-between; 
+} 
+  
+  .menu-items li a { 
+  background-color: #F7F7DF; /*change color here */
+    color: #B07A1F;
+ 
+  }
+
+.nav-bar { 
+  display:inline-block; 
+  position: relative;
+  padding: 30px 0 30px 0; 
+  width:60%;
+}
+
+
+#toggle { 
+display:none; 
+}
+
+label { 
+display:none;
+}
+
+ul.menu-items, #toggle:checked ~ ul.menu-items { 
+display: flex; 
+margin: 0;
+list-style-type: none;
+text-align: right;
+border-top:none; 
+  width: 60%; 
+  justify-content: space-between;
+}
+  ul.menu-items { 
+padding: 0px 0 0px 0; 
+    height: 100px;
 }
